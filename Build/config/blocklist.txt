@@ -1,0 +1,5 @@
+# Ad / tracking domain blocklist
+# One domain per line, supports *.example.com wildcard
+# Lines starting with # are comments
+
+

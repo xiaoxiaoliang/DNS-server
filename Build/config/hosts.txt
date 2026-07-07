@@ -1,0 +1,5 @@
+# Custom hosts file - format: IP domain
+# Lines starting with # are comments
+
+#127.0.0.1    localhost
+#::1          localhost

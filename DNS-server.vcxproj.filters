@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="common\logger.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="config\config_loader.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dns\dns_builder.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dns\dns_parser.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="monitor\stats.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="network\platform_loop.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="network\udp_server.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="resolver\cache_resolver.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="resolver\filter_resolver.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="resolver\forward_resolver.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="resolver\hosts_resolver.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="resolver\query_dispatcher.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="common\buffer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="common\logger.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="common\optional.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="common\types.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="config\config_loader.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="dns\dns_builder.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="dns\dns_header.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="dns\dns_parser.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="dns\dns_question.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="dns\dns_rr.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="monitor\stats.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="network\io_loop.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="network\udp_server.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="resolver\cache_resolver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="resolver\filter_resolver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="resolver\forward_resolver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="resolver\hosts_resolver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="resolver\query_dispatcher.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
