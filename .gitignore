@@ -368,3 +368,6 @@ run_test.ps1
 test.bat
 Build/
 !Build/config/
+/run_test.ps1
+/deploy.ps1
+/test.bat
